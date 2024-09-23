@@ -1,0 +1,17 @@
+	const navigate = useNavigate();
+
+
+  const cerrarSesion = () => {
+
+    localStorage.removeItem("token");
+    navigate("/");
+
+  }
+
+
+<input
+          type="submit"
+          value="Serrar sesión"
+          className="bg-violet-600 mb-5 w-full py-3 text-white uppercase font-bold rounded hover:cursor-pointer"
+          onClick={cerrarSesion}
+        />

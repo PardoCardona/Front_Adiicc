@@ -1,0 +1,36 @@
+<main ClassName='container mx-auto mt-5 md:mt-20 p-5 md:flex md:justify-center'>
+         <div ClassName='md:w-2/3 lg:w-2/5'>
+            <h1 ClassName='inline bg-gradient-to-r from-indigo-200 via-violet-700 to-indigo-200
+            bg-clip-text font-display text-5xl tracking-tight text-transparent'>
+              G12 Iniciar sesion
+            </h1>
+      
+            <form>
+              <div>
+                <label>Email</label>
+                <input></input>
+              </div>
+            </form>
+            
+         </div>
+
+      </main>
+
+
+
+Copia
+
+<div>  
+        <h1>CrearCuenta</h1>
+        <h2>Ingresa los datos del usuario</h2>
+
+        <input placeholder="Nombre"/>
+        <input placeholder="Email"/>
+        <input placeholder="Password"/> 
+        <input placeholder="Confirmar Password"/> 
+        
+        <button> Crear Cuenta</button>
+        <Link to={"/"}>Regresar</Link>
+    </div>
+
+
